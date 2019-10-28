@@ -71,7 +71,7 @@ in pkgs.stdenv.mkDerivation {
     xsltproc \
       ${manualXsltprocOptions} \
       --nonet --output $dst/ \
-      ${pkgs.docbook5_xsl}/xml/xsl/docbook/xhtml/chunk.xsl \
+      ${pkgs.docbook5_xsl}/xml/xsl/docbook/epub3/chunk.xsl \
       ${combined}
 
     mkdir -p $dst/images
