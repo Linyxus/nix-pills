@@ -2,6 +2,10 @@
 
 https://nixos.org/nixos/nix-pills/
 
+This is a fork of [Nix Pills](https://github.com/NixOS/nix-pills) generating epub documents.
+[Details](README_epub.md)
+[epub download](https://github.com/Linyxus/nix-pills/releases)
+
 ## Development
 
  - List of Elements: http://tdg.docbook.org/tdg/5.2/chunk-part-d6252e15351.html
